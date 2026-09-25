@@ -1,0 +1,118 @@
+*{
+     /* border:1px solid red;  */
+
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+}
+
+#navbar a{
+    color: white;  
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+}
+
+
+#about{
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFhr-7cfQOPpwqrH2oaPayK_xrEHuVg96OGBe7LQ3l9A&s=10');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+}
+
+
+.aboutleft{
+    width: 50%;
+    padding: 50px;
+    color: white;
+}
+
+
+.aboutright{
+    width: 50%;
+    padding: 5px 100px;
+}
+
+
+.aboutleft h1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.aboutleft h2{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.aboutleft p{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.aboutbuttons button{
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: gold;
+    border:none
+
+}
+
+.aboutbuttons button:hover{
+    background-color: white;
+    border: 2px solid gold;
+}
+
+
+#Achievments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+
+}
+.section2{
+    text-align: center;
+    margin: 10px;
+
+}
+.card classhead{
+    margin: 10px;
+
+}
+.card{
+    width: 20%;
+    border: 0.6px solid grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px grey;
+
+}
+
+
+
+
+
+
+
+
