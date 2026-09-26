@@ -109,10 +109,197 @@
 
 }
 
+/* Project section */
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.card1{
+    width: 400px;
+    height: 400px;
+    box-shadow: -2px -3px 10px black;
+    margin-bottom: 20px;
+    border-radius: 10px;
 
 
+}
+.card1 img{
+    width: 45%;
+}
+
+.card1 a{
+
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+
+.card1 a:hover{
+    background-color: black;
+    color: white;
+}
 
 
+/* Education section */
+#education{
+    text-align: center;
+    background-color: black;
+    height: 130px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+.tablecontent{
+    width: 100%;
+    text-align: center;
+    border:1px solid white;
+    color:white;
+}
+
+th,td{
+    padding: 20px;
+}
+
+th{
+    color: gold;
+}
+
+/* Contact details */
+#contactform{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    padding: 50px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+}
+
+#contactform label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#contactform input{
+    padding: 10px;
+}
+
+#contactform textarea{
+    padding: 30px;
+}
+
+#contactform button{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#contact iframe{
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.location{
+    margin-top: 60px;
+    
+}
+
+/*Declaration*/
+ #declare{
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#declare h1{
+    color: white;
+}
+
+#declare p{
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    /* background-color: gold; */
+}
+
+/* Footer */
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items :center;
+    background-color: gold;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+#footer p{
+    margin-left: 500px;
+    font-size: large;
+}
+
+.img1 img{
+    margin-left: 400px;
+}
+
+.img1 img:hover{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.img2 img:hover{
+    background-color: blue;
+    border-radius: 25px;
+}
+
+@media all and (max-width:576px){
+    #navbar {
+        background-color: blue;
+    }
+}
 
 
+@media all and (min-width:576px) and (max-width:768px){
+    #navbar{
+        background-color: rgb(4,91,52);
+
+    }
+}
+@media all and (min-width:768px) and (max-width:992px){
+    #navbar{
+        background-color: rgb(91,69,4);
+
+    }
+}@media all and (min-width:992px) and (max-width:1200px){
+    #navbar{
+        background-color: rgb(91, 34, 4);
+
+    }
+}
+@media all and (max-width:1200px){
+    #navbar {
+        background-color: black;
+    }
+}
 
